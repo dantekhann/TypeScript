@@ -1,13 +1,6 @@
 import readlinesync = require("readline-sync");
 
-//const teste: number;
-
-const numeros: Array<number> = new Array<number>();
-
-numeros.push(7);
-numeros.push(5);
-numeros.push(1);
-numeros.push(7);
+const numeros: Array<number> = new Array<number>(1,2,3,4,5,6,7,8,9,10);
 
 //numeros.push(readlinesync.questionFloat("Digite um numero: ")); //adiciona o numero ao final
 numeros.unshift(2.5, 3.6, 8); //adiciona o numero/s no inicio
