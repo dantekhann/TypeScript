@@ -1,4 +1,4 @@
-import readlinesync = require("readline-sync");
+import readlinesync = require("readline-sync"); //importação da biblioteca javascript
 
 let numero1: number;
 let numero2: number;
